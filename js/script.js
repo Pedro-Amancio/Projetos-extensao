@@ -134,7 +134,7 @@ const cakesData = {
 
 // Dados da galeria
 const galleryData = [
-    { id: 1, image: 'Bombom.jpeg', alt: 'Bombom de morango ou uva' },
+    { id: 1, image: 'bombom.jpeg', alt: 'Bombom de morango ou uva' },
     { id: 2, image: 'bolocenoura.jpeg', alt: 'Bolo de cenoura' },
     { id: 3, image: 'cenoura.jpeg', alt: 'Bolo cenoura' },
     { id: 4, image: 'torta.jpeg', alt: 'torta salgada' },
