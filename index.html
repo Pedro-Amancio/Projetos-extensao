@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Bliss | Bolos Premium</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor"></div>
+    
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="assets/logo.jpg" alt="Dani Artesanal" class="logo-img">
+                <span class="logo-text">Dani Artesanal</span>
+            </a>
+            
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">Sobre</a></li>
+                    <li><a href="#menu" class="nav-link">Cardápio</a></li>
+                    <li><a href="#gallery" class="nav-link">Galeria</a></li>
+                    <li><a href="#contact" class="nav-link">Contato</a></li>
+                </ul>
+                
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">Bolos artesanais</span>
+                    <span class="title-line">feitos com</span>
+                    <span class="title-line">paixão</span>
+                </h1>
+                <p class="hero-subtitle">Confeitaria premium com ingredientes selecionados</p>
+                <a href="#menu" class="btn btn-primary">
+                    <span>Explorar Cardápio</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            
+            <div class="hero-image">
+                <img src="assets/hero-cake.png" alt="Bolo decorado" class="cake-img">
+                <div class="floating-elements">
+                    <div class="floating-element element-1"></div>
+                    <div class="floating-element element-2"></div>
+                    <div class="floating-element element-3"></div>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <span>Scroll</span>
+            </div>
+        </section>
+
+        <section class="about section-padding" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Nossa História</span>
+                    <h2 class="section-title">Doce Tradição</h2>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Na Dani Artesanal, transformamos momentos especiais em memórias inesquecíveis através da doçura. Nossos bolos são criados com técnicas artesanais aliadas à inovação.</p>
+                        <p>Usamos apenas ingredientes de qualidade. Cada criação é uma obra de arte comestível, feita sob medida para seu paladar.</p>
+                        
+                    </div>
+                    
+                    <div class="about-image">
+                        <div class="image-frame">
+                            <img src="assets/cks.png" alt="cakes confeiteira" class="chef-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="menu section-padding" id="menu">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Nossas Criações</span>
+                    <h2 class="section-title">Cardápio Premium</h2>
+                </div>
+                
+                <div class="menu-content">
+                    <div class="tab-panel active" id="classic">
+                        <div class="menu-grid">
+                            <!-- Itens serão inseridos via JavaScript -->
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery section-padding" id="gallery">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Nossos Trabalhos</span>
+                    <h2 class="section-title">Galeria</h2>
+                </div>
+                
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="gallery-1.jpg" alt="Bolo decorado" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <!-- Mais itens serão inseridos via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Depoimentos</span>
+                    <h2 class="section-title">O que dizem sobre nós</h2>
+                </div>
+                
+                <div class="testimonials-slider">
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"O bolo da Sweet Bliss foi o ponto alto do meu casamento. Perfeito em sabor e apresentação!"</p>
+                            <div class="client-info">
+                                <img src="client-1.jpg" alt="Cliente" class="client-img">
+                                <div>
+                                    <h4>Mariana Costa</h4>
+                                    <span>Noiva</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Mais depoimentos serão inseridos via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section class="cta section-padding">
+            <div class="container">
+                <div class="cta-card">
+                    <h2 class="cta-title">Pronto para encomendar seu bolo dos sonhos?</h2>
+                    <p class="cta-text">Entre em contato para uma consulta personalizada</p>
+                    <a href="#contact" class="btn btn-primary">
+                        <span>Fazer Pedido</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section-padding" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Fale conosco</span>
+                    <h2 class="section-title">Contato</h2>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Endereço</h4>
+                                <p>Portão do Rosa<br>São Gonçalo - RJ</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Telefone</h4>
+                                <p>(21) 98590-5423</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Email</h4>
+                                <p>joaonarcisoo22@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-pinterest-p"></i></a>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Seu nome" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" placeholder="Seu email" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="tel" placeholder="Seu telefone" class="form-control">
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea placeholder="Sua mensagem" class="form-control" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">
+                            <span>Enviar Mensagem</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <a href="#" class="logo">
+                        <img src="assets/logo.jpg" alt="Sweet Bliss" class="logo-img">
+                        <span class="logo-text">Sweet Bliss</span>
+                    </a>
+                    <p class="footer-text">Confeitaria artesanal especializada em bolos premium para ocasiões especiais.</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 class="footer-title">Links Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#menu">Cardápio</a></li>
+                        <li><a href="#gallery">Galeria</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 class="footer-title">Horário de Funcionamento</h4>
+                    <ul class="footer-info">
+                        <li>Segunda - Sexta: 9h às 18h</li>
+                        <li>Sábado: 9h às 14h</li>
+                        <li>Domingo: Fechado</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 class="footer-title">Newsletter</h4>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Seu email" class="newsletter-input" required>
+                        <button type="submit" class="newsletter-btn">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 Dani Artesanal. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
